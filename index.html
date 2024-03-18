@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://kit.fontawesome.com/3e0bbfa773.js" crossorigin="anonymous"></script>
+</head>
+<body>
+  <div id="header">
+    <div class="container">
+      <nav>
+        <img src="Assents/images/logo.jpg" class="logo">
+        <ul id="sidemenu">
+             <li><a href="#header">Home</li>
+             <li><a href="#about">about</a></li>
+             <li><a href="#porfolio">My Anime</a></li>
+             <li><a href="#My Anime">porfolio</a></li>
+             <li><a href="#contact">contact</a></li>
+             <i class="fas fa-times" onclick="closemenu()"></i>
+          
+        </ul>
+        <i class="fas fa-bars" onclick="openmenu()"></i>
+      </nav>
+      <div class="header-text">
+        <p>Programming Beginner</p>
+        <h1>Hi, I am <span>Christian j Nimbuen </span><br>a beginner frontend developer and programmer</h1>
+        
+      </div>
+      
+    </div>
+    
+  </div>
+  <!-------------- About ---------->
+  <div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="Assents/images/joy1.jpg" alt="">
+            </div>
+            
+            <div class="about-col-2">
+                <h1 class="sub-title">About Me</h1>
+                <p>about me</p>
+                <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                    <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                    <p class="tab-links" onclick="opentab('education')">Education</p>
+                </div>
+                <div class="tab-contents active-tab" id="skills">
+                    <ul>
+                        <li><span>Html/css/js</span><br>Learning them for now in my frontend journey</li>
+                        <li><span>Ai deployer</span><br>Deploying whatsapp robot</li>
+                        <li><span>webpage</span><br>developer</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="experience">
+                    <ul>
+                        <li><span>current</span><br>Html/Css/js</li>
+                        <li><span>current</span><br>building project</li>
+                        <li><span>2024 (current)</span><br>beginner developer</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="education">
+                    <ul>
+                        <li><span>current</span><br>making my way to frontend </li>
+                        <li><span>current</span><br>javascript</li>
+                        <li><span>current</span><br>beginner programmer</li>
+                       
+                    
+                      </ul>
+                      
+                </div>
+
+            </div>
+        </div>
+    </div>
+  </div>
+  <!---------------Services------------------->
+  <div class="services">
+    <div class="container">
+        <h1 class="sub-title">My Goals</h1>
+        <div class="services-list">
+            <div>
+                <i class="fa-brands fa-wpbeginner"></i>
+                <h2>Frontend beginner</h2>
+                <p>Being a beginner self teacher and student frontend developer is very though sometimes you feel like quitting but you dont have to because its what you wish for and there is nothing that have positive effect looks easy </p>
+                <a href="">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-laptop"></i>
+                <h2>Beginner programmer</h2>
+                <p>I am a still learning programming and it seem though because i am self teacher and student </p>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-code"></i>
+                <h2>Software engineer Beginner</h2>
+                <p>part of my goals in life but for now i am focussing on being a well designer and programmer for web</p>
+                <a href="">Learn more</a>
+            </div>
+
+        </div>
+
+    </div>
+
+  </div>
+  <!-------------porfolio----------------->
+  <div id="porfolio">
+    <div class="container">
+        <h1 class="sub-title">My Anime</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="Assents/images/joy7.jpg">
+                <div class="layer">
+                  <h3>Social media</h3>
+                  <p>scroll below to reach me</p>
+                  <a href="#"><i class="fa-solid fa-link"></i></a>
+                </div>
+                
+            </div>
+            <div class="work">
+                <img src="Assents/images/joy6.jpg">
+                <div class="layer">
+                  <h3>Web design</h3>
+                  <p>This is my first coded page</p>
+                  <a href="#"><i class="fa-solid fa-link"></i></a>
+                </div>
+                
+        </div>
+        <div class="work">
+            <img src="Assents/images/joy4.jpg">
+            <div class="layer">
+                  <h3>Dev</h3>
+                  <p>Do you love my anime</p>
+                  <a href="#"><i class="fa-solid fa-link"></i></a>
+                </div>
+                </div>
+                </div>
+            <a href="#" class="btn">See more</a>
+
+    </div>
+  </div>
+  <!---------Contact---------->
+  <div id="contact">
+    <div class="container">
+      <di class="row">
+        <div class="contact-left">
+          <h1 class="sub-title">Contact Me</h1>
+          <p><i class="fa-solid fa-paper-plane"></i>contact cnimbuen@gmail.com</p>
+          <p><i class="fa-solid fa-phone"></i>+231775928537</p>
+          <div class="social-icons">
+            <a href="https://wa.me/231775928537"><i class="fa-brands fa-whatsapp"></i></a>
+            <a href="https://github.com/joyjohnson18/joyjohnson"><i class="fa-brands fa-github"></i></a>
+            <a href="#"><i class="fa-brands fa-facebook"></i></a>
+            <a href="#"><i class="fa-brands fa-instagram"></i></a>
+          <!-- </div>
+          <a href="#" download class="btn btn2">Download CV</a> -->
+        </div>
+          <div class="contact-right">
+            <form name="submit-to-google-sheet">
+              <input type="text" name="Name" placeholder="Your Name" required>
+              <input type="text" name="email" placeholder="Your Email" required>
+              <textarea name="message" rows="6" placeholder="Your Message"></textarea>
+              <button type="submit" class="btn btn2">Submit</button>
+            </form>
+            <span id="msg"></span>
+          </div>
+
+      </div>
+    </div>
+    <div class="copyright">
+      <p>&copy;<span id="year"></span>Christian<i class="fa-solid fa-shield-heart"></i> all right reserved</p>
+    </div>
+  </div>
+  <script src="app.js"></script>
+
+</body>
+</html>
